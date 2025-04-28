@@ -3,7 +3,7 @@ document.getElementById('learnForm').addEventListener('submit', async function (
   const formData = new FormData(e.target);
   const data = Object.fromEntries(formData.entries());
 
-  const res = await fetch('https://your-backend-url.onrender.com/plan', {
+  const res = await fetch('https://extra-fm3q.onrender.com', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(data)
