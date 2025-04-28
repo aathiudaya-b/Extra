@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Free Learning Plan Generator</title>
+</head>
+<body>
+  <h1>Learning Plan Generator</h1>
+
+  <form id="learnForm">
+    <label>Topic:</label><br>
+    <input type="text" name="topic" required><br>
+
+    <label>Current Level:</label><br>
+    <input type="text" name="current_level"><br>
+
+    <label>Days to learn:</label><br>
+    <input type="number" name="days" required><br><br>
+
+    <button type="submit">Generate Plan</button>
+  </form>
+
+  <h2>Your Plan:</h2>
+  <pre id="planOutput"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
